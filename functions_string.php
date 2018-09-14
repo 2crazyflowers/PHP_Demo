@@ -29,6 +29,12 @@
     echo "<br>";
     //
     
+     
+    /*Use a pre-built string function here and echo it */
+
+    $message = 'You are learning php!';
+    echo str_shuffle($message) . "<br>";
+    
     
 ?>
 

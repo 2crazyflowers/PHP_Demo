@@ -10,6 +10,8 @@
 <?php 
     $number = 100;
     
+    
+    //http://php.net/manual/en/control-structures.switch.php
     switch($number){
         // if it is equal to 34
         case 34:

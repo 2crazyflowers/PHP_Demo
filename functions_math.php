@@ -33,6 +33,14 @@
     //http://php.net/manual/en/ref.math.php
     //php site that gives all the math functions
     
+     /*  Step1: Use a pre-built math function here and echo it */
+
+    $numbers = [55, 92, 37, 85, 13];
+    sort($numbers);
+    print_r($numbers);   
+
+    echo "<br>" . array_sum($numbers) . "<br>";
+    
 
     
 ?>

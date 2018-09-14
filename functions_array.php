@@ -54,6 +54,17 @@
     echo "<br>";
     
     
+    /*Use a pre-built Array function here and echo it */
+
+    $list = ['laundry', 'kitty litter', 'plant new plants', 'make calls and emails'];
+
+    array_unshift($list, 'go for walk', 'learn php');
+    print_r($list);
+    echo "<br>";
+    $found = in_array('kitty litter', $list);
+
+    echo 'kitty litter ' . "found at index" . $found; 
+
     
 ?>
 
