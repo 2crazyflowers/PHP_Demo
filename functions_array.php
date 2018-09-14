@@ -26,6 +26,13 @@
     print_r($list);
     echo "<br>";
     
+    //prepend one or more elements to the beginning of an array
+    array_unshift($list, 'bread', 'chicken');
+    print_r($list);
+    echo "<br>";
+
+
+    
     
     
     $numbers = [50, 60, 88, 97, 2, 10];
